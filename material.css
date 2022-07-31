@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("Images/abstract.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family:sans-serif;
+  }
+.container{
+  width: 92%;
+  margin: 10px auto;
+  border-radius:50px;
+}
+h1{
+  font-family: sans-serif;
+  font-display:inherit;
+  text-transform: Uppercase;
+  border-left: 12px solid #1abc9c;
+  margin:10px;
+  border-top-right-radius: 10px;
+}
+.book{
+  width:48%;
+  float:left;
+  background-color:  rgba(227, 222, 227, 0.93);;
+  margin: 5px;
+  padding:10px;
+  font-family: Verdana;
+  border-radius: 10px;
+  box-shadow: 50px;
+}
+.icon{
+  width:20%;
+  float:left;
+  line-height: 200px;
+  font-family:Verdana;
+}
+button{
+  background:#1abc9c;
+  border-radius:7px;
+  padding:6px 6px;
+  color:#ffff;
+  float:right;
+  font-family: Verdana;
+  box-shadow: 50px;
+}
+@viewport{
+  zoom:1.0;
+  width:extended-to-zoom;
+}
+@-ms-viewport{
+  width:exend-to-zoom;
+  zoom:1.0;
+}
